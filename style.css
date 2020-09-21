@@ -1,0 +1,41 @@
+body{
+    background: #17202A;
+    padding: 5px; 
+    font-family:Helvetica Neue;
+}
+
+.column{
+    float: left;
+    padding: 1px;
+}
+
+.left{
+    float: left;
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-right: 45px;
+    padding-bottom: 5px;
+    width: 15%;
+   
+}
+
+.midle{
+    padding: 5 0 5 0px;
+    width: 38%; 
+    
+    }
+
+.right{
+    width: 25%; 
+    padding: 5 20 5 20px;
+    
+    
+}
+
+.Search{
+    font-family:Helvetica Neue;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #283340;
+    
+}
