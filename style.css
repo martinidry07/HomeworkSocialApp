@@ -4,6 +4,7 @@ body{
     font-family:Helvetica Neue;
 }
 
+
 .column{
     float: left;
     padding: 1px;
@@ -16,26 +17,77 @@ body{
     padding-right: 45px;
     padding-bottom: 5px;
     width: 15%;
-   
+    border-right: 1px rgba(58,68,76,1) solid;
 }
+
+.button-item{
+    height: 40px;
+    width: auto;
+    padding: 1px;
+    /*border: 2px solid white;*/ 
+}
+.Button{
+    float: left;
+    position: relative;
+    top: 8px;
+    left: 10px;
+}
+.button-text{
+    position: relative;
+    top: 8px;
+    left: 30px;
+    color: white;
+    font-family: Helvetica Neue;
+    font-size: 20px;
+}
+.Tweet-text{
+    position: relative;
+    top: 13px;
+    left: 80px;
+}
+.tweet-image{
+    margin-top: 10px;
+    height: 50px;
+    width: auto;
+    padding: 1px;
+    background-image: url(Images/Tweet-button.svg);
+    background-repeat: no-repeat;
+    background-position: left; 
+    position: relative;
+}
+
 
 .midle{
     padding: 5 0 5 0px;
-    width: 38%; 
-    
+    width: 38%;   
     }
+.arrow{
+    position: relative;
+    top: 15px;
+    left: 20px;
+}
+.arrow-text{
+    position: absolute;
+    top: 3px;
+    left:  62px;
+}
+.arrow-text2{
+    position: absolute;
+    top: 30px;
+    left:  62px;
+    font-size: 14px;
+}
 
 .right{
     width: 25%; 
-    padding: 5 20 5 20px;
-    
-    
+    padding: 5 20 5 20px;  
 }
 
 .Search{
     font-family:Helvetica Neue;
     border: 2px solid black;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: #283340;
-    
+    width: 250px;
+    height: 25px;
 }
