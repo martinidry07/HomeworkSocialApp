@@ -6,7 +6,7 @@ body{
 
 
 .column{
-    float: left;
+    
     padding: 1px;
 }
 
@@ -79,6 +79,7 @@ body{
 }
 
 .right{
+    float: right;
     width: 25%; 
     padding: 5 20 5 20px;  
     border-left: 1px rgba(58,68,76,1) solid;
