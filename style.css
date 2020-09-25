@@ -61,17 +61,22 @@ body{
 
 
 .middle{
+    position: relative;
     grid-column-start: 2;
     padding: 5 0 5 0px;  
     }
+
 .arrow{
+    height: 70px;
+}
+.arrowIMG{
     position: relative;
-    top: 15px;
+    bottom: 10px;
     left: 20px;
 }
 .arrow-text{
     position: absolute;
-    top: 3px;
+    top: 10px;
     left:  62px;
     font-family: Helvetica;
     font-weight: bold;
@@ -79,10 +84,14 @@ body{
 }
 .arrow-text2{
     position: absolute;
-    top: 30px;
+    top: 35px;
     left:  62px;
     font-size: 14px;
     color: lightgray;
+}
+.button-text:hoover{
+    text-decoration-line: underline;
+    text-decoration-color: #0572EF;
 }
 
 .right{
