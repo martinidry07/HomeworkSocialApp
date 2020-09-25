@@ -1,6 +1,6 @@
 body{
     display: grid;
-    grid-template-columns: 22% 46% 32%;
+    grid-template-columns: 25% 41% 34%;
     background: #17202A;
     padding: 5px; 
 }
@@ -26,8 +26,11 @@ body{
     width: 90%;
     background-color: #17202A;
     color: white;
-    font-family: Helvetica Neue;
+    font-family: Helvetica;
     font-size: 20px;
+    font-weight: bold;
+    border-style: none;
+    align-items: center;
   
 }
 .Button:hover {
@@ -41,22 +44,23 @@ body{
 
 .Tweet{
 
-    margin-left: 30px;
+
     height:50px;
 
     margin-top: 20px;
-    width: 60%;
-    background-color: #0572EF;
+    width: 210px;
+    background-color: #4BA0EC;
     color: white;
-    font-family: Helvetica Neue;
+    font-family: Helvetica;
     font-size: 20px;
-    border-radius: 20%;
-
+    font-weight: bold;
+    border-radius: 100px;
+    align-items: center;
 }
 
 
 
-.midle{
+.middle{
     grid-column-start: 2;
     padding: 5 0 5 0px;  
     }
@@ -69,12 +73,16 @@ body{
     position: absolute;
     top: 3px;
     left:  62px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: white;
 }
 .arrow-text2{
     position: absolute;
     top: 30px;
     left:  62px;
     font-size: 14px;
+    color: lightgray;
 }
 
 .right{
@@ -91,9 +99,9 @@ body{
 
 .Search{
     padding-left: 30px;
-    font-family:Helvetica Neue;
+    font-family:Helvetica;
     border: 2px solid black;
-    border-radius: 20px;
+    border-radius: 100px;
     background-color: #283340;
     width: 80%;
     height: 20px;
