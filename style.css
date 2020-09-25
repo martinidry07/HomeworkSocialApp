@@ -116,9 +116,30 @@ body{
     height: 20px;
 }
 
-.magnifier{
+.magnifier {
+    position: relative;
+}
+
+.magnifier svg {
     position: absolute;
-    padding-right: 80%;
-    padding-top: 5px;
-    
+    vertical-align: middle;
+    left: 20px;
+    top: 0;
+  
+    height: 100%;
+  }
+
+  .magnifier input{
+  width: 90%;
+  height: 10%;
+  box-sizing: border-box;
+  padding: 20px 20px 20px 45px;
+  border: 2px solid black;
+  border-radius: 100px;
+  outline: none;
+  background-color: #283340;
+  border-radius: 10px;
+  color: #fff;
+  font-family:Helvetica;
+  height: 20px;
 }

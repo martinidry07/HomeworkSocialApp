@@ -16,6 +16,7 @@
             <button class="Button"><img src="Images/Profile-Vector.svg" alt="Profile" class="Profile Button-image"/>Profile</button>
             <button class="Button"><img src="Images/More.svg" alt="More" class="More Button-image"/>More</button>
             <button class="Tweet">Tweet</button>
+            
         </div>
 
         
@@ -31,11 +32,29 @@
 
 
         <div  class="column right" >
-                <form class="SearchForm">
-                    <img src="Images/magnifier.svg" alt="magnifier" class="magnifier">
-                    <input class="Search" type+"text" placeholder="Search Twitter">
+
+                <form class="SearchForm" action="index.html" method="post">
+                    <div class="magnifier">
+                      <input
+                        type="text"
+                        name="location"
+                        placeholder="Search Twitter"
+                      />
+                      <svg
+                        width="15"
+                        height="16"
+                        viewBox="0 0 15 16"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <circle cx="7" cy="7" r="6.5" stroke="#8A98A4"/>
+                        <path d="M11 12L14.5 15.5" stroke="#8A98A4" />
+                      </svg>
+                    </div>
+              
                     
-                </form> 
+                    
+                  </form>
         </div>
         
     </body>
