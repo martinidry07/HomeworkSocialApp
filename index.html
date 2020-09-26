@@ -1,61 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Twitter Desktop</title>
-        <link rel="stylesheet" href = "style.css"/>
-    </head>
-    <body>
-        <div  class="column left" >
-            <button class="Button"><img src="Images/TwitterLogo.svg" alt="Twiter" class="Twiter Button-image"/></button>
-            <button class="Button"><img src="Images/Home.svg" alt="Home" class="Home Button-image"/>Home</button>
-            <button class="Button"><img src="Images/Explore-Vector.svg" alt="Explore" class="Explore Button-image"/>Explore</button>
-            <button class="Button"><img src="Images/Bell-Vector.svg" alt="Notifications" class="Notifications Button-image"/>Notifications</button>
-            <button class="Button"><img src="Images/Message-Vector.svg" alt="Messages" class="Messages Button-image"/>Messages</button>
-            <button class="Button"><img src="Images/Bookmark-Vector.svg" alt="Bookmarks" class="Bookmarks Button-image"/>Bookmarks</button>
-            <button class="Button"><img src="Images/Lists.svg" alt="Lists" class="Lists Button-image"/>Lists</button>
-            <button class="Button"><img src="Images/Profile-Vector.svg" alt="Profile" class="Profile Button-image"/>Profile</button>
-            <button class="Button"><img src="Images/More.svg" alt="More" class="More Button-image"/>More</button>
-            <button class="Tweet">Tweet</button>
-            
-        </div>
+  <head>
+    <title>Twitter Desktop</title>
+    <link rel="stylesheet" href = "style.css"/>
+  </head>
+  <body>
+    <div  class="column left" >
+      <button class="Button"><img src="Images/TwitterLogo.svg" alt="Twiter" class="Twiter Button-image"/></button>
+      <button class="Button"><img src="Images/Home.svg" alt="Home" class="Home Button-image"/>Home</button>
+      <button class="Button"><img src="Images/Explore-Vector.svg" alt="Explore" class="Explore Button-image"/>Explore</button>
+      <button class="Button"><img src="Images/Bell-Vector.svg" alt="Notifications" class="Notifications Button-image"/>Notifications</button>
+      <button class="Button"><img src="Images/Message-Vector.svg" alt="Messages" class="Messages Button-image"/>Messages</button>
+      <button class="Button"><img src="Images/Bookmark-Vector.svg" alt="Bookmarks" class="Bookmarks Button-image"/>Bookmarks</button>
+      <button class="Button"><img src="Images/Lists.svg" alt="Lists" class="Lists Button-image"/>Lists</button>
+      <button class="Button"><img src="Images/Profile-Vector.svg" alt="Profile" class="Profile Button-image"/>Profile</button>
+      <button class="Button"><img src="Images/More.svg" alt="More" class="More Button-image"/>More</button>
+      <button class="Tweet">Tweet</button>
+    </div>
 
         
-        <div  class="column middle" >
-            <button class="arrow Button button-text">
-                
-                <img src="Images/arrow.svg" alt="Arrow" class="arrowIMG"/>
-                <p1 class="button-text arrow-text">Name</p1>
-                <p1 class="button-text arrow-text2" >2 006 Tweets</p1>
-                
-            </button>
+    <div  class="column middle" >
+      <button class="arrow Button button-text">  
+        <img src="Images/arrow.svg" alt="Arrow" class="arrowIMG"/>
+        <p1 class="button-text arrow-text">Name</p1>
+        <p1 class="button-text arrow-text2" >2 006 Tweets</p1> 
+      </button>
+    </div>
+
+
+    <div  class="column right" >
+      <div class="SearchForm">
+      <form class="Search-Form" action="index.html" method="post">
+        <div class="Search">
+          <input type="text" name="location" placeholder="Search Twitter"/>
+          <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7" cy="7" r="6.5" stroke="#8A98A4"/>
+            <path d="M11 12L14.5 15.5" stroke="#8A98A4" />
+          />
+          </svg>
         </div>
-
-
-        <div  class="column right" >
-
-                <form class="SearchForm" action="index.html" method="post">
-                    <div class="magnifier">
-                      <input
-                        type="text"
-                        name="location"
-                        placeholder="Search Twitter"
-                      />
-                      <svg
-                        width="15"
-                        height="16"
-                        viewBox="0 0 15 16"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <circle cx="7" cy="7" r="6.5" stroke="#8A98A4"/>
-                        <path d="M11 12L14.5 15.5" stroke="#8A98A4" />
-                      </svg>
-                    </div>
-              
-                    
-                    
-                  </form>
-        </div>
+      </form>
+    </div>
+      <div class="right rColumnSpace" ></div>
+    </div>
         
-    </body>
+  </body>
 </html>
