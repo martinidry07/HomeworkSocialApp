@@ -6,7 +6,7 @@
   </head>
   <body>
     <div  class="column left" >
-      <button class="Button"><img src="Images/TwitterLogo.svg" alt="Twiter" class="Twiter Button-image"/></button>
+      <button class="Button"><img role="button" src="Images/TwitterLogo.svg" alt="Twiter" class="Twiter Button-image"/></button>
       <button class="Button"><img src="Images/Home.svg" alt="Home" class="Home Button-image"/>Home</button>
       <button class="Button"><img src="Images/Explore-Vector.svg" alt="Explore" class="Explore Button-image"/>Explore</button>
       <button class="Button"><img src="Images/Bell-Vector.svg" alt="Notifications" class="Notifications Button-image"/>Notifications</button>
@@ -16,33 +16,43 @@
       <button class="Button"><img src="Images/Profile-Vector.svg" alt="Profile" class="Profile Button-image"/>Profile</button>
       <button class="Button"><img src="Images/More.svg" alt="More" class="More Button-image"/>More</button>
       <button class="Tweet">Tweet</button>
+      <div role="button" class="downButton">  
+        <p1 class="button-text down-text">Name</p1>
+        <p1 class="button-text down-text2" >@Name</p1> 
+        <svg class="svg1" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13.7591 0.246303C13.4379 -0.082101 12.9166 -0.082101 12.5946 0.246303L7 5.96642L1.40544 0.246303C1.08424 -0.082101 0.562915 -0.082101 0.240897 0.246303C-0.0802988 0.574707 -0.0802988 1.10773 0.240897 1.43698L6.41773 7.75244C6.57833 7.91748 6.78834 8 7 8C7.21166 8 7.42167 7.91748 7.58227 7.75328L13.7591 1.43782C14.0803 1.10942 14.0803 0.577233 13.7591 0.247987V0.246303Z" fill="white"/>
+        </svg>
+        <svg class="svg2" width="100" height="100">
+          <circle  cx="17" cy="17" r="17" fill="#4BA0EC" />
+        </svg>
+      </div>
     </div>
 
         
     <div  class="column middle" >
-      <button class="arrow Button button-text">  
+      <div role="button" class="arrow Button button-text">  
         <img src="Images/arrow.svg" alt="Arrow" class="arrowIMG"/>
         <p1 class="button-text arrow-text">Name</p1>
         <p1 class="button-text arrow-text2" >2 006 Tweets</p1> 
-      </button>
+      </div>
     </div>
 
 
     <div  class="column right" >
-      <div class="SearchForm">
       <form class="Search-Form" action="index.html" method="post">
         <div class="Search">
           <input type="text" name="location" placeholder="Search Twitter"/>
-          <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg width="15" height="16" viewBox="0 0 15 16" fill="none" >
             <circle cx="7" cy="7" r="6.5" stroke="#8A98A4"/>
             <path d="M11 12L14.5 15.5" stroke="#8A98A4" />
           />
           </svg>
         </div>
       </form>
+      <div class=" rColumnSpace" ></div>
     </div>
-      <div class="right rColumnSpace" ></div>
-    </div>
+    
+    
         
   </body>
 </html>
