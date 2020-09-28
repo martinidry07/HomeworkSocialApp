@@ -56,6 +56,7 @@ body{
         font-size: 20px;
         font-weight: bold;
         border-radius: 100px;
+        border: 0;
         align-items: center;
     }
         
@@ -67,6 +68,7 @@ body{
         width: 220px;
         font-family: Helvetica;
         color: white;
+        border: 0;
         border-radius: 100px;
         }
         .svg1{
@@ -139,14 +141,15 @@ body{
 
     .Search-Form{
         position: relative;
-        width: 90%;
+        width: 100%;
         height: 30px;
-        margin: 1px;
+        margin: 1px, auto;
         padding: 1px;
         }
 
         .Search {
             position: relative;
+            width: 100%;
         }
 
         .Search svg {
@@ -157,7 +160,6 @@ body{
         }
 
     .Search input {
-        position: absolute;
         box-sizing: border-box;
         padding: 5px 0px 5px 35px; 
         border: 2px solid black;
